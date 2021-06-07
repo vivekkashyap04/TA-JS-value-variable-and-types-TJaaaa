@@ -3,6 +3,21 @@
 let firstName = "Arya";
 let lastName = "Stark";
 
+alert(firstName);
+alert(lastName);
+firstName = "John";
+lastName = "Snow";
+alert(firstName + " " + lastName);
+const fullName = firstName + " " +lastName;
+let name,newUser,isadmin;
+name = "vivek";
+newUser = name;
+isAdmin = true;
+alert(name);
+alert(newUser);
+alert(isAdmin);
+
+
 // Do the following:
 
 // Alert the value of the firstName.
@@ -21,6 +36,10 @@ let lastName = "Stark";
 // Assignment and re-assignment
 
 var wiseMan = "Tyrion Lannister";
+wiseMan = "Samwell Tarly";
+let userName = "Lysa Tarley";
+let oddNumber = 57;
+oddNumber =61;
 
 // Follow instructions and do the following. In case of an error write the error in comment
 
@@ -32,6 +51,10 @@ var wiseMan = "Tyrion Lannister";
 // Mathematical Operation
 
 let amount = 4280;
+let reducedAmount = amount - 24;
+let addedAmount = amount + 32;
+let multipleAmount = amount * 7;
+let dividedAmount = amount / 57;
 
 // Using mathematical operations find the solutions. `(+, -, \*, / , etc.)`
 
